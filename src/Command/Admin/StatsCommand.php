@@ -29,7 +29,7 @@ class StatsCommand extends AdminCommand
 {
     protected $name = 'stats';
     protected $description = 'Display stats';
-    protected $usage = '/stats';
+    protected $usage = '/statistika';
 
     /**
      * @return ServerResponse
