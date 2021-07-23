@@ -69,7 +69,7 @@ class StartCommand extends UserCommand
                 [
                     new InlineKeyboardButton(
                         [
-                            'text'                => __('Play') . ' ' . Emoji::gameDie(),
+                            'text'                => __('O\'ynash') . ' ' . Emoji::gameDie(),
                             'switch_inline_query' => Emoji::gameDie(),
                         ]
                     ),
