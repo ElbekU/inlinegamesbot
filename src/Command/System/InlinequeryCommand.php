@@ -46,7 +46,7 @@ class InlinequeryCommand extends SystemCommand
                     'description'           => $game_class::getDescription(),
                     'input_message_content' => new InputTextMessageContent(
                         [
-                            'message_text'             => '<b>' . $game_class::getTitle() . '</b>' . PHP_EOL . PHP_EOL . '<i>' . __('This game session is empty.') . '</i>',
+                            'message_text'             => '<b>' . $game_class::getTitle() . '</b>' . PHP_EOL . PHP_EOL . '<i>' . __('O\'yin bo\'sh.') . '</i>',
                             'parse_mode'               => 'HTML',
                             'disable_web_page_preview' => true,
                         ]
@@ -121,7 +121,7 @@ class InlinequeryCommand extends SystemCommand
             [
                 new InlineKeyboardButton(
                     [
-                        'text'          => __('Create'),
+                        'text'          => __('Boshlash'),
                         'callback_data' => $game_code . ';new',
                     ]
                 ),
